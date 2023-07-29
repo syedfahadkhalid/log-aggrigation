@@ -19,13 +19,14 @@ Update the destination database URL and other configurations as required.
 
 The code relies on the following Python libraries:
 
-gzip: For decompressing the log data received in gzip format.
-json: For parsing and handling JSON data.
-base64: For decoding base64-encoded log data.
-re: For pattern matching and text processing.
-boto3: For interaction with AWS services (e.g., EC2, Secrets Manager).
-botocore: For handling AWS configurations and settings.
-pymysql: For connecting and interacting with the MySQL database.
+1. gzip: For decompressing the log data received in gzip format.
+2. json: For parsing and handling JSON data.
+3. base64: For decoding base64-encoded log data.
+4. re: For pattern matching and text processing.
+5. boto3: For interaction with AWS services (e.g., EC2, Secrets Manager).
+6. botocore: For handling AWS configurations and settings.
+7. pymysql: For connecting and interacting with the MySQL database.
+
 Please note that the sql_metadata.py module provides additional functions for parsing SQL queries and extracting table names and columns.
 
 Feel free to utilize and customize this Lambda code to efficiently handle your log streams and derive valuable insights from your log data.
